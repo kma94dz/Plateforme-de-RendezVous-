@@ -1,0 +1,19 @@
+<?php 
+include "database.php"; 
+$con=mysqli_connect("localhost","root","","rdv_interview");
+$result = mysqli_query($con,'SELECT * FROM rdv_interview WHERE rdv="01-03-2019"');
+$d1=false;
+$numberOfrdv=0;
+// 01-03-2019
+while($row = mysqli_fetch_array($result))
+{
+// si present dans la table
+$numberOfrdv=$numberOfrdv+1;
+}
+// verrification si le depart existe
+if($numberOfrdv>=10)
+{
+$d1=true;
+}
+echo $numberOfrdv;
+?>
