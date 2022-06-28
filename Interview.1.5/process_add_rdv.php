@@ -140,7 +140,7 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
 ";
 //--------------------Link to change------------------------------------
 echo ' <p><H2>le rendez-vous du :  <b>'.$rdv.'</b> a <b>'.$houres.'</b> nest pas disponible veuillez selectionner un autre rendez-vous 
-<a href="/Interview/Page-add_rdv.php">retour a la page de selection d un rendez-vous</a> OU </p></body>  </<h2>';
+<a href="Page-add_rdv.php">retour a la page de selection d un rendez-vous</a> OU </p></body>  </<h2>';
 //----------------------------------------------------------------------
 
 $nom="";
@@ -165,7 +165,7 @@ mysqli_close($connect);
 else{
 //si le depart est trouvé
 //echo " <H2> nous avons trouver des departs le <b>".$rdv."</b> a <b>".$houres."</b> voulez vous reserver des billets pour cette date ? </H2>";
-header('/Interview/process_add_rdv.php'); 
+header('process_add_rdv.php'); 
 
 
 $connect=mysqli_connect("localhost","root","","rdv_interview");
@@ -292,7 +292,7 @@ alert('vous avez deja deja envoyer ce formulaire; les informations que vous avez
 
 //--------------------Link to change------------------------------------
 echo "
-<a href='/Interview/Main-page'>retour a la page d'accueil</a></body>  </<h2>";
+<a href='Main-page'>retour a la page d'accueil</a></body>  </<h2>";
 //----------------------------------------------------------------------
 //-----------------------------------------------------------------------
 

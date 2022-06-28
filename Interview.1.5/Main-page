@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interview</title>
+<!-- for-mobile-apps -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Bus Ticket Reservation Widget Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!-- //for-mobile-apps -->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/jquery.seat-charts.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.seat-charts.js"></script>
+
+</head>
+<body>
+<div class="content">
+	<h1>BIENVENU</h1>
+	<div class="main">
+		<HTML>
+<HEAD>
+<TITLE>Interview system</TITLE>
+</HEAD>
+
+<BODY  background="images/hyger50places.jpg">
+
+<HR>
+
+<H2>Interview system</H2>
+<H3>voulez vous prendre rendez-vous?</H3>
+<a href="Page-add_rdv.php">
+Prendre un rendez-vous
+</a>
+
+<!--
+<p>
+<a href="http://localhost/garreRoutiere/Page-del_rdv.php">
+annuler votre rendez-vous
+</a>
+</p>
+<!--
+<p>
+<a href="http://localhost/garreRoutiere/viewTble.php">
+tableau des Reservation
+</a>
+</p>
+-->
+
+<P> <B></B>
+<BR> <B>Site de reservation de rendez-vous</I></B>
+<HR>
+</BODY>
+</HTML>
+
+
+	</div>
+	<p clolor="black" class="copy_rights">&copy; ce systeme a ete develope par Koalal.Mohamed.Amir, Touts Droits Reserves</p>
+</div>
+<script src="js/jquery.nicescroll.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
